@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daystar Daycare</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    {% load static %}
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            background-color: rgba(7, 7, 7, 0.05);
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+            font-weight: 900;
+        }
+
+
+        a{
+          color: white  !important;
+          text-decoration: none;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="access">
+        <form action="" method="post" style="margin-top: 10px;">
+            <button style="background-color: darkcyan; color: white;"><a href="{% url 'signup' %}">Sign up</a></button>
+            <button style="background-color: darkcyan; color: white;"><a href="{% url 'login_page' %}">Login</a></button>
+        </form>
+    </div>
+    <div class="logo">
+        <img src="./static/images/official.jpg" alt="Logo" width="150px"
+            style="text-align: left; margin-right: 90%; height: 120px;">
+    </div>
+    <div class="container" style="background-image:url(../static/images/bkgr3.jpeg); background-size: cover;">
+        
+        <div class="logo1" style="margin-left: 10px;">
+            <img src="./static/images/official.jpg" alt="Logo" width="100px"
+                style="text-align: left; margin-right: 90%; height: 100px;">
+        </div>
+        <div class="card" style="width: 25%; margin-left: 75%;">
+            <div class="card-body">
+                <h2 style="margin-left: 25%; "><i><span style="color:#B4BDFF;">Happy </span><span
+                            style="color: peru;">Happens</span><br><span style="color:rgb(232, 61, 61)">Here</span> </i>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        © 2024 Daystar daycare, designed by Winnifred Akullu.
+        <a class="text-body" href="https://mdbootstrap.com/">All rights reserved</a>
+    </footer>
+    <script src="../static/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

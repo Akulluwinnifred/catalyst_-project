@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-5">
+                <h1 class="display-1">DAYSTAR </h1>
+                <h2>DAYCARE</h2>
+            </div>
+            <div class="col-4" style="background-color: #83A2FF;">
+                <form class="bg pe-3 ps-3 pt-3 pb-3 rounded shadow">
+                    <div class="mb-3 text-center">
+                        <h1>Login</h1>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">name</label>
+                        <input type="text" class="form-control">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">password</label>
+                        <input type="password" class="form-control">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Confirm password</label>
+                        <input type="password" class="form-control">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <button class="btn btn-primary">Sign up</button>
+
+
+                    </div>
+                    <div class="mb-3">
+                        <a href="{% url 'login_page' %}" class="text-info" style="color: white !important;">Already have an account? Login</a>
+
+                    </div>
+
+                </form>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col">
+                <footer class="bg-body-tertiary text-center text-lg-start">
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                        © 2024 Daystar daycare,designed by winnifred Akullu:
+                        <a class="text-body" href="https://mdbootstrap.com/">All rights reserved</a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="/link.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
