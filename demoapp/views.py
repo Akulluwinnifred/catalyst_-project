@@ -17,5 +17,5 @@ def forgotpassword(request):
     return render(request,"forgotpassword.html")
 
 
-def employees(request):
-    return render(request,"staff/employees.html")
+def dashboard(request):
+    return render(request,"staff/dashboard.html")
