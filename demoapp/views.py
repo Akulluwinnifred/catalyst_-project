@@ -19,3 +19,19 @@ def forgotpassword(request):
 
 def dashboard(request):
     return render(request,"staff/dashboard.html")
+
+
+def babies_reg(request):
+    return render(request, 'staff/babies_reg.html')
+
+
+def sitters_reg(request):
+    return render(request, 'staff/sitters_reg.html')
+
+
+def baby_attendance(request):
+    return  render(request, "staff/baby_attendance.html")
+
+
+def sitter_attendance(request):
+    return render(request, 'staff/sitter_attendance.html')
