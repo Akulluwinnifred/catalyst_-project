@@ -35,3 +35,7 @@ def baby_attendance(request):
 
 def sitter_attendance(request):
     return render(request, 'staff/sitter_attendance.html')
+
+
+def payments(request):
+    return render(request, 'staff/payments.html')
