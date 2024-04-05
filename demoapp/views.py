@@ -17,6 +17,10 @@ def forgotpassword(request):
     return render(request,"forgotpassword.html")
 
 
+def resetpassword(request):
+    return render(request,"resetpassword.html")
+
+
 def dashboard(request):
     return render(request,"staff/dashboard.html")
 
@@ -43,3 +47,7 @@ def payments(request):
 
 def departure(request):
     return render(request, 'staff/departure.html')
+
+
+def procurement(request):
+    return render(request, 'staff/procurement.html')
